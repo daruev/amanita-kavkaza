@@ -203,8 +203,8 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .faq-cta .kicon{color:var(--acc2)}
 .faq-cta .wrap{position:relative}
 
-.ftr{padding:0 0 40px;background-image:linear-gradient(180deg,rgba(6,113,122,.16) 0%,transparent 70%),radial-gradient(rgba(233,227,210,.075) 1px,transparent 1.5px);background-size:100% 100%,26px 26px}
-.ftr-in{display:grid;gap:14px;justify-items:center;text-align:center;padding-top:26px}
+.cta-ftr{margin-top:74px;display:grid;gap:14px;justify-items:center;text-align:center}
+.cta-ftr .brand{font:500 13px/1 var(--mono);letter-spacing:.18em;display:flex;align-items:center;gap:9px}
 .ftr-geo{font:500 12px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
 .cta-links{position:relative;display:flex;gap:10px 24px;flex-wrap:wrap;justify-content:center;margin-top:40px;padding:18px 30px;background:rgba(233,227,210,.045);border:1px solid var(--line);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);clip-path:polygon(14px 0,100% 0,100% calc(100% - 14px),calc(100% - 14px) 100%,0 100%,0 14px)}
 .cta-links a{font:500 12px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--dim);padding-bottom:3px;border-bottom:1px solid var(--line);transition:color .2s,border-color .2s}
