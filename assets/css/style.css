@@ -196,6 +196,7 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .cta-sub b{color:var(--ink);font-weight:600}
 .faq-cta{margin-top:90px;padding:170px 0 190px;border-top:1px solid var(--line);background:radial-gradient(70% 90% at 50% 115%,rgba(6,113,122,.22) 0%,transparent 62%);position:relative;overflow:hidden}
 .faq-cta .kick{justify-content:center}
+.faq-cta .kicon{color:var(--acc2)}
 .faq-cta .wrap{position:relative}
 
 .ftr{border-top:1px solid var(--line);padding:56px 0 40px;background:var(--bg)}
