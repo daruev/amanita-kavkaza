@@ -266,9 +266,3 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
   .cartbar{flex-direction:column;align-items:stretch;gap:10px;text-align:center}
   .cartbar>div{justify-content:center}
 }
-@media(prefers-reduced-motion:reduce){
-  .hero-bg{animation:none}
-  .hero-mandala,.cta-mandala{animation:none}
-  .io,.io.in{opacity:1;transform:none;animation:none}
-  html{scroll-behavior:auto}
-}
