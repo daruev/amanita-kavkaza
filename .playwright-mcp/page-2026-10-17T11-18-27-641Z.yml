@@ -1,0 +1,333 @@
+- generic [active] [ref=f1e1]:
+  - banner [ref=f1e2]:
+    - generic [ref=f1e3]:
+      - link "AMANITA·KAVKAZA" [ref=f1e4] [cursor=pointer]:
+        - /url: "#top"
+      - link "телеграм" [ref=f1e6] [cursor=pointer]:
+        - /url: https://t.me/amanita_kavkaza
+  - generic [ref=f1e7]:
+    - generic [ref=f1e10]:
+      - paragraph [ref=f1e11]: грибы и травы предгорий кавказа
+      - heading "Лес Кавказа в граммах" [level=1] [ref=f1e12]: Лес Кавказав граммах
+      - paragraph [ref=f1e13]: Мухомор, ежовик, рейши, кордицепс и дикоросы Приэльбрусья. Ручной сбор, сушка не выше 40°, живое сопровождение после покупки.
+      - generic [ref=f1e14]:
+        - link "в лавку" [ref=f1e15] [cursor=pointer]:
+          - /url: "#shop"
+        - link "телеграм-канал" [ref=f1e16] [cursor=pointer]:
+          - /url: https://t.me/amanita_kavkaza
+    - generic [ref=f1e18]:
+      - generic [ref=f1e19]: 20 лет в лесу
+      - generic [ref=f1e20]: 16 позиций в лавке
+      - generic [ref=f1e21]: сопровождение до результата
+      - generic [ref=f1e22]: отправка по России
+  - generic [ref=f1e24]:
+    - generic [ref=f1e25]: ручной сбор ✳ сушка до 40° ✳ приэльбрусье ✳ вакуумная фасовка ✳ инфосопровождение ✳ отправка по россии ✳
+    - generic [ref=f1e26]: ручной сбор ✳ сушка до 40° ✳ приэльбрусье ✳ вакуумная фасовка ✳ инфосопровождение ✳ отправка по россии ✳
+  - generic [ref=f1e28]:
+    - generic [ref=f1e29]:
+      - paragraph [ref=f1e30]: // лавка
+      - heading "Собери свой состав" [level=2] [ref=f1e31]
+      - paragraph [ref=f1e32]: Цены за грамм или за фасовку. Порошок, целые шляпки и капсулы делаем под запрос.
+    - generic [ref=f1e33]:
+      - button "всё" [ref=f1e34] [cursor=pointer]
+      - button "грибы" [ref=f1e35] [cursor=pointer]
+      - button "растения" [ref=f1e36] [cursor=pointer]
+      - button "миксы" [ref=f1e37] [cursor=pointer]
+    - generic [ref=f1e38]:
+      - article [ref=f1e39]:
+        - img "Сушёные шляпки мухомора красного" [ref=f1e41]
+        - generic [ref=f1e42]:
+          - paragraph [ref=f1e43]: хит · грибы
+          - heading "Мухомор красный, Кавказ" [level=3] [ref=f1e44]
+          - paragraph [ref=f1e45]: Шляпки ручного сбора, Приэльбрусье. Целые или в порошке.
+          - generic [ref=f1e46]:
+            - paragraph [ref=f1e47]:
+              - text: 33 ₽
+              - generic [ref=f1e48]: /г · 50 г ≈ 1 650 ₽
+            - button "в заказ" [ref=f1e49] [cursor=pointer]
+      - article [ref=f1e50]:
+        - img "Сушёные шляпки мухомора пантерного" [ref=f1e52]
+        - generic [ref=f1e53]:
+          - paragraph [ref=f1e54]: грибы
+          - heading "Мухомор пантерный, Кавказ" [level=3] [ref=f1e55]
+          - paragraph [ref=f1e56]: Тёмные шляпки, плотный сбор. Только малые дозы.
+          - generic [ref=f1e57]:
+            - paragraph [ref=f1e58]:
+              - text: 80 ₽
+              - generic [ref=f1e59]: /г · 50 г ≈ 4 000 ₽
+            - button "в заказ" [ref=f1e60] [cursor=pointer]
+      - article [ref=f1e61]:
+        - img "Плодовые тела ежовика на весах" [ref=f1e63]
+        - generic [ref=f1e64]:
+          - paragraph [ref=f1e65]: грибы
+          - heading "Ежовик, плодовые тела" [level=3] [ref=f1e66]
+          - paragraph [ref=f1e67]: Целые или в порошке, как попросите. Фасовка 100 г.
+          - generic [ref=f1e68]:
+            - paragraph [ref=f1e69]:
+              - text: 1 100 ₽
+              - generic [ref=f1e70]: /100 г
+            - button "в заказ" [ref=f1e71] [cursor=pointer]
+      - article [ref=f1e72]:
+        - img "Зерновой мицелий ежовика в руке" [ref=f1e74]
+        - generic [ref=f1e75]:
+          - paragraph [ref=f1e76]: грибы
+          - heading "Ежовик, мицелий" [level=3] [ref=f1e77]
+          - paragraph [ref=f1e78]: Живой зерновой мицелий на субстрате. Фасовка 100 г.
+          - generic [ref=f1e79]:
+            - paragraph [ref=f1e80]:
+              - text: 900 ₽
+              - generic [ref=f1e81]: /100 г
+            - button "в заказ" [ref=f1e82] [cursor=pointer]
+      - article [ref=f1e83]:
+        - generic [ref=f1e84]: Ganoderma lucidum
+        - generic [ref=f1e86]:
+          - paragraph [ref=f1e87]: грибы
+          - heading "Рейши (ганодерма)" [level=3] [ref=f1e88]
+          - paragraph [ref=f1e89]: Классика фунготерапии, сушёные плодовые тела.
+          - generic [ref=f1e90]:
+            - paragraph [ref=f1e91]:
+              - text: 12 ₽
+              - generic [ref=f1e92]: /г · 100 г ≈ 1 200 ₽
+            - button "в заказ" [ref=f1e93] [cursor=pointer]
+      - article [ref=f1e94]:
+        - img "Кордицепс милитари" [ref=f1e96]
+        - generic [ref=f1e97]:
+          - paragraph [ref=f1e98]: грибы
+          - heading "Кордицепс милитари" [level=3] [ref=f1e99]
+          - paragraph [ref=f1e100]: Оранжевые плодовые тела, выращены на субстрате.
+          - generic [ref=f1e101]:
+            - paragraph [ref=f1e102]:
+              - text: 15 ₽
+              - generic [ref=f1e103]: /г · 100 г ≈ 1 500 ₽
+            - button "в заказ" [ref=f1e104] [cursor=pointer]
+      - article [ref=f1e105]:
+        - generic [ref=f1e106]: Phallus impudicus
+        - generic [ref=f1e108]:
+          - paragraph [ref=f1e109]: грибы
+          - heading "Весёлка, сушёное яйцо" [level=3] [ref=f1e110]
+          - paragraph [ref=f1e111]: Редкий лесной сбор, сушится целиком в тени.
+          - generic [ref=f1e112]:
+            - paragraph [ref=f1e113]:
+              - text: 15 ₽
+              - generic [ref=f1e114]: /г · 100 г ≈ 1 500 ₽
+            - button "в заказ" [ref=f1e115] [cursor=pointer]
+      - article [ref=f1e116]:
+        - generic [ref=f1e117]: Trametes versicolor
+        - generic [ref=f1e119]:
+          - paragraph [ref=f1e120]: грибы
+          - heading "Траметес" [level=3] [ref=f1e121]
+          - paragraph [ref=f1e122]: Трутовик разноцветный, измельчённые плодовые тела. 100 г.
+          - generic [ref=f1e123]:
+            - paragraph [ref=f1e124]:
+              - text: 900 ₽
+              - generic [ref=f1e125]: /100 г
+            - button "в заказ" [ref=f1e126] [cursor=pointer]
+      - article [ref=f1e127]:
+        - generic [ref=f1e128]: Cantharellus cibarius
+        - generic [ref=f1e130]:
+          - paragraph [ref=f1e131]: грибы
+          - heading "Лисички" [level=3] [ref=f1e132]
+          - paragraph [ref=f1e133]: Антипаразитарный сбор, целые плодовые тела. 100 г.
+          - generic [ref=f1e134]:
+            - paragraph [ref=f1e135]:
+              - text: 900 ₽
+              - generic [ref=f1e136]: /100 г
+            - button "в заказ" [ref=f1e137] [cursor=pointer]
+      - article [ref=f1e138]:
+        - generic [ref=f1e139]: Cervus elaphus
+        - generic [ref=f1e141]:
+          - paragraph [ref=f1e142]: растения · рог
+          - heading "Панты марала, слайсы" [level=3] [ref=f1e143]
+          - paragraph [ref=f1e144]: Срезка пантов, тонкий слайс для настоев.
+          - generic [ref=f1e145]:
+            - paragraph [ref=f1e146]:
+              - text: 22 ₽
+              - generic [ref=f1e147]: /г · 100 г ≈ 2 200 ₽
+            - button "в заказ" [ref=f1e148] [cursor=pointer]
+      - article [ref=f1e149]:
+        - generic [ref=f1e150]: Panax ginseng
+        - generic [ref=f1e152]:
+          - paragraph [ref=f1e153]: растения
+          - heading "Женьшень настоящий" [level=3] [ref=f1e154]
+          - paragraph [ref=f1e155]: Корень, срезка. Настоящий, не порошковый суррогат.
+          - generic [ref=f1e156]:
+            - paragraph [ref=f1e157]:
+              - text: 20 ₽
+              - generic [ref=f1e158]: /г · 100 г ≈ 2 000 ₽
+            - button "в заказ" [ref=f1e159] [cursor=pointer]
+      - article [ref=f1e160]:
+        - generic [ref=f1e161]: Lepidium meyenii
+        - generic [ref=f1e163]:
+          - paragraph [ref=f1e164]: растения
+          - heading "Мака перуанская" [level=3] [ref=f1e165]
+          - paragraph [ref=f1e166]: Корень в порошке, ровный помол.
+          - generic [ref=f1e167]:
+            - paragraph [ref=f1e168]:
+              - text: 15 ₽
+              - generic [ref=f1e169]: /г · 100 г ≈ 1 500 ₽
+            - button "в заказ" [ref=f1e170] [cursor=pointer]
+      - article [ref=f1e171]:
+        - generic [ref=f1e172]: Ganoderma + Phallus
+        - generic [ref=f1e174]:
+          - paragraph [ref=f1e175]: миксы
+          - heading "Иммунный коктейль" [level=3] [ref=f1e176]
+          - paragraph [ref=f1e177]: Рейши + весёлка, 50/50. Фасовка 100 г.
+          - generic [ref=f1e178]:
+            - paragraph [ref=f1e179]:
+              - text: 1 500 ₽
+              - generic [ref=f1e180]: /100 г
+            - button "в заказ" [ref=f1e181] [cursor=pointer]
+      - article [ref=f1e182]:
+        - generic [ref=f1e183]: Hericium + Cordyceps
+        - generic [ref=f1e185]:
+          - paragraph [ref=f1e186]: миксы
+          - heading "Ноотропный микс" [level=3] [ref=f1e187]
+          - paragraph [ref=f1e188]: Ежовик ПТ + ежовик мицелий + кордицепс, 30/30/40. 100 г.
+          - generic [ref=f1e189]:
+            - paragraph [ref=f1e190]:
+              - text: 1 500 ₽
+              - generic [ref=f1e191]: /100 г
+            - button "в заказ" [ref=f1e192] [cursor=pointer]
+      - article [ref=f1e193]:
+        - img "Банка с продуктом на весах" [ref=f1e195]
+        - generic [ref=f1e196]:
+          - paragraph [ref=f1e197]: миксы
+          - heading "Капсулы ежовиковые" [level=3] [ref=f1e198]
+          - paragraph [ref=f1e199]: Мицелий + плодовые тела 70/30. 120 капсул по 0,45 г.
+          - generic [ref=f1e200]:
+            - paragraph [ref=f1e201]:
+              - text: 900 ₽
+              - generic [ref=f1e202]: /120 шт
+            - button "в заказ" [ref=f1e203] [cursor=pointer]
+      - article [ref=f1e204]:
+        - generic [ref=f1e205]: Cordycepin mix
+        - generic [ref=f1e207]:
+          - paragraph [ref=f1e208]: миксы
+          - heading "Кордицепин Мицеликс" [level=3] [ref=f1e209]
+          - paragraph [ref=f1e210]: Авторский состав Савельева. Фасовка 100 г.
+          - generic [ref=f1e211]:
+            - paragraph [ref=f1e212]:
+              - text: 2 800 ₽
+              - generic [ref=f1e213]: /100 г
+            - button "в заказ" [ref=f1e214] [cursor=pointer]
+  - generic [ref=f1e216]:
+    - generic [ref=f1e217]:
+      - paragraph [ref=f1e218]: // путь гриба
+      - heading "От мха до вашей банки" [level=2] [ref=f1e219]
+    - generic [ref=f1e220]:
+      - generic [ref=f1e221]:
+        - paragraph [ref=f1e222]: "01"
+        - heading "Сбор" [level=3] [ref=f1e223]
+        - paragraph [ref=f1e224]: Точечный, ручной, вдали от трасс. Молодые целые плодовые тела, грибницу не трогаем.
+        - img "Сбор мухоморов в предгорьях Кавказа" [ref=f1e225]
+      - generic [ref=f1e226]:
+        - paragraph [ref=f1e227]: "02"
+        - heading "Сушка" [level=3] [ref=f1e228]
+        - paragraph [ref=f1e229]: "Тень и вентиляция, в сырую погоду ИК-плёнка. Не выше 40°: действующие вещества остаются живыми."
+        - img "Стеллажи с блоками мицелия" [ref=f1e230]
+      - generic [ref=f1e231]:
+        - paragraph [ref=f1e232]: "03"
+        - heading "Фасовка" [level=3] [ref=f1e233]
+        - paragraph [ref=f1e234]: Целые шляпки, порошок или капсулы под ваш запрос. Взвешиваем при вас, фото до отправки.
+        - img "Взвешивание ежовика" [ref=f1e235]
+      - generic [ref=f1e236]:
+        - paragraph [ref=f1e237]: "04"
+        - heading "Сопровождение" [level=3] [ref=f1e238]
+        - paragraph [ref=f1e239]: Подбираем схему и дозу, остаёмся на связи. Лекции и семинары по фунготерапии, онлайн-поддержка.
+        - img "Сопровождение и консультации" [ref=f1e240]
+  - generic [ref=f1e242]:
+    - generic [ref=f1e243]:
+      - img "Вячеслав с плодовыми телами ежовика" [ref=f1e244]
+      - img "Собранный урожай ежовика" [ref=f1e245]
+      - img "Плодовое тело ежовика крупным планом" [ref=f1e246]
+    - generic [ref=f1e247]:
+      - paragraph [ref=f1e248]: // кто сушит
+      - heading "Вячеслав" [level=2] [ref=f1e249]
+      - paragraph [ref=f1e250]: "Двадцать лет собираю дикоросы в предгорьях Кавказа, основной регион: Приэльбрусье. Освоил щадящую сушку, при которой в грибе остаётся максимум действующих веществ. Веду публичные лекции и семинары по фунготерапии, участвую в выставках и фестивалях."
+      - paragraph [ref=f1e251]: К каждому заказу идёт информационная поддержка и сопровождение, пока вы не поймёте, как и зачем вам это работает.
+      - list [ref=f1e252]:
+        - listitem [ref=f1e253]:
+          - generic [ref=f1e254]: 20 лет
+          - text: в лесу
+        - listitem [ref=f1e255]:
+          - generic [ref=f1e256]: Приэльбрусье
+          - text: регион сбора
+        - listitem [ref=f1e257]:
+          - generic [ref=f1e258]: Лекции
+          - text: по фунготерапии
+        - listitem [ref=f1e259]:
+          - generic [ref=f1e260]: Отзывы
+          - text: на Авито и в переписках
+      - figure "сертификат соответствия, высылаем по запросу" [ref=f1e261]:
+        - img "Сертификат соответствия" [ref=f1e262]
+  - generic [ref=f1e265]:
+    - blockquote [ref=f1e266]:
+      - text: «Правильно подобранный микродозинг нельзя померить в граммах или ложках. Его можно померить в ощущениях».
+      - generic [ref=f1e267]: Вячеслав
+    - generic [ref=f1e268]:
+      - generic [ref=f1e269]:
+        - paragraph [ref=f1e270]: "01"
+        - heading "Старт" [level=3] [ref=f1e271]
+        - paragraph [ref=f1e272]: Начинаем с минимума. Первую неделю слушаем тело и не гонимся за граммами.
+      - generic [ref=f1e273]:
+        - paragraph [ref=f1e274]: "02"
+        - heading "Курс" [level=3] [ref=f1e275]
+        - paragraph [ref=f1e276]: 4–8 недель приёма, затем перерыв. Дальше по самочувствию и задачам.
+      - generic [ref=f1e277]:
+        - paragraph [ref=f1e278]: "03"
+        - heading "Связь" [level=3] [ref=f1e279]
+        - paragraph [ref=f1e280]: Пишете в телеграм, разбираем ощущения и корректируем схему. Бесплатно.
+    - paragraph [ref=f1e281]: Продукция не является лекарством или БАД. Материалы сайта не медицинская рекомендация. Имеются противопоказания, необходима консультация специалиста.
+  - generic [ref=f1e282]:
+    - generic [ref=f1e283]:
+      - generic [ref=f1e284]:
+        - paragraph [ref=f1e285]: // галерея
+        - heading "Отзывы" [level=2] [ref=f1e286]
+        - paragraph [ref=f1e287]: Переписки с покупателями, кадры со сборов и фермы, крупные планы продукции. Клик по кадру откроет его целиком.
+      - generic [ref=f1e288]:
+        - button "обратная связь 5" [ref=f1e289] [cursor=pointer]
+        - button "вячеслав 4" [ref=f1e290] [cursor=pointer]
+        - button "грибы 7" [ref=f1e291] [cursor=pointer]
+    - generic [ref=f1e292]:
+      - 'figure "катя: мицелий, сны с первой ночи" [ref=f1e293]':
+        - 'img "Отзыв Кати: сны и мицелий" [ref=f1e294]'
+      - 'figure "руслан: полтора килограмма ежовика" [ref=f1e296]':
+        - 'img "Отзыв Руслана: крупный заказ ежовика" [ref=f1e297]'
+      - 'figure "елена: пантерный и шляпки, отзыв с оплатой" [ref=f1e299]':
+        - 'img "Отзыв Елены: заказ пантерного и шляпок" [ref=f1e300]'
+      - 'figure "алексей: пантерный, 2,5 месяца" [ref=f1e302]':
+        - 'img "Отзыв Алексея: пантерный, два с половиной месяца" [ref=f1e303]'
+      - 'figure "катя: спина перестала болеть" [ref=f1e305]':
+        - img "Отзыв Кати из Новороссийска" [ref=f1e306]
+    - generic [ref=f1e308]:
+      - button "← назад" [ref=f1e309] [cursor=pointer]
+      - button "вперёд →" [ref=f1e310] [cursor=pointer]
+  - generic [ref=f1e312]:
+    - generic [ref=f1e313]:
+      - paragraph [ref=f1e314]: // вопросы
+      - heading "Спрашивают до заказа" [level=2] [ref=f1e315]
+    - generic [ref=f1e316]:
+      - group [ref=f1e317]:
+        - generic "С чего начать, если я в теме первый раз? +" [ref=f1e318] [cursor=pointer]
+      - group [ref=f1e319]:
+        - generic "Как хранить и сколько живёт продукт? +" [ref=f1e320] [cursor=pointer]
+      - group [ref=f1e321]:
+        - generic "Как быстро отправите и чем доставите? +" [ref=f1e322] [cursor=pointer]
+      - group [ref=f1e323]:
+        - generic "Как оплатить? +" [ref=f1e324] [cursor=pointer]
+      - group [ref=f1e325]:
+        - generic "Есть документы на продукцию? +" [ref=f1e326] [cursor=pointer]
+      - group [ref=f1e327]:
+        - generic "Сопровождение правда бесплатное? +" [ref=f1e328] [cursor=pointer]
+  - generic [ref=f1e330]:
+    - paragraph [ref=f1e331]: // заказ
+    - heading "Забрать свой грамм" [level=2] [ref=f1e332]
+    - paragraph [ref=f1e333]: "Пишите в телеграм: подберём состав и дозу под задачу, ответим на вопросы и отправим в день заказа. Канал с анонсами сборов и лекциями: t.me/amanita_kavkaza"
+    - link "открыть телеграм" [ref=f1e334] [cursor=pointer]:
+      - /url: https://t.me/amanita_kavkaza
+  - contentinfo [ref=f1e335]:
+    - generic [ref=f1e336]:
+      - paragraph [ref=f1e337]: AMANITA·KAVKAZA
+      - paragraph [ref=f1e339]: Краснодар · t.me/amanita_kavkaza
+      - paragraph [ref=f1e340]: Продукция не является лекарством или БАД. Имеются противопоказания, необходима консультация специалиста. 18+
+      - paragraph [ref=f1e341]: © 2026 AMANITA KAVKAZA
