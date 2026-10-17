@@ -9,9 +9,64 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oranienbaum&family=Manrope:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css?v=3">
+<link rel="stylesheet" href="assets/css/style.css?v=4">
 </head>
 <body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="mandala" viewBox="0 0 200 200">
+      <circle cx="100" cy="100" r="96" fill="none" stroke="currentColor" stroke-width="1"/>
+      <circle cx="100" cy="100" r="70" fill="none" stroke="currentColor" stroke-width=".8" stroke-dasharray="4 6"/>
+      <circle cx="100" cy="100" r="46" fill="none" stroke="currentColor" stroke-width=".8"/>
+      <circle cx="100" cy="100" r="30" fill="none" stroke="currentColor" stroke-width=".6" stroke-dasharray="2 5"/>
+      <g fill="currentColor">
+        <circle cx="183" cy="100" r="2.4"/><circle cx="171.9" cy="141.5" r="2.4"/><circle cx="141.5" cy="171.9" r="2.4"/>
+        <circle cx="100" cy="183" r="2.4"/><circle cx="58.5" cy="171.9" r="2.4"/><circle cx="28.1" cy="141.5" r="2.4"/>
+        <circle cx="17" cy="100" r="2.4"/><circle cx="28.1" cy="58.5" r="2.4"/><circle cx="58.5" cy="28.1" r="2.4"/>
+        <circle cx="100" cy="17" r="2.4"/><circle cx="141.5" cy="28.1" r="2.4"/><circle cx="171.9" cy="58.5" r="2.4"/>
+      </g>
+      <path d="M100 62v76M62 100h76" stroke="currentColor" stroke-width=".7" fill="none"/>
+      <circle cx="100" cy="100" r="5" fill="none" stroke="currentColor" stroke-width=".8"/>
+      <circle cx="100" cy="100" r="1.6" fill="currentColor"/>
+    </symbol>
+    <symbol id="sg-gill" viewBox="0 0 16 16">
+      <path d="M2.5 8a5.5 4.2 0 0 1 11 0z" fill="none" stroke="currentColor" stroke-width="1.2"/>
+      <path d="M6.4 8l.5 5.5h2.2L9.6 8" fill="none" stroke="currentColor" stroke-width="1.2"/>
+      <circle cx="6" cy="6" r=".7" fill="currentColor"/><circle cx="9.6" cy="5.3" r=".7" fill="currentColor"/>
+    </symbol>
+    <symbol id="sg-path" viewBox="0 0 16 16">
+      <path d="M2 13.5C5.5 11 3.5 7 8 6.5S11.5 3 14 2" fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="2.2 2.2"/>
+      <circle cx="2" cy="13.5" r="1.1" fill="currentColor"/><circle cx="14" cy="2" r="1.1" fill="currentColor"/>
+    </symbol>
+    <symbol id="sg-eye" viewBox="0 0 16 16">
+      <ellipse cx="8" cy="9" rx="6" ry="3.2" fill="none" stroke="currentColor" stroke-width="1.2"/>
+      <circle cx="8" cy="9" r="1.6" fill="currentColor"/>
+      <path d="M8 2.2v2.2M3.8 3.2l1 1.9M12.2 3.2l-1 1.9" stroke="currentColor" stroke-width="1.1" fill="none"/>
+    </symbol>
+    <symbol id="sg-rhomb" viewBox="0 0 16 16">
+      <path d="M8 2l6 6-6 6-6-6z" fill="none" stroke="currentColor" stroke-width="1.2"/>
+      <circle cx="8" cy="8" r="1" fill="currentColor"/>
+    </symbol>
+    <symbol id="sg-moon" viewBox="0 0 16 16">
+      <path d="M10.2 2.4a6 6 0 1 0 3.4 10.9A5.2 5.2 0 0 1 10.2 2.4z" fill="none" stroke="currentColor" stroke-width="1.2"/>
+      <circle cx="12.4" cy="3.8" r=".9" fill="currentColor"/>
+    </symbol>
+    <symbol id="sg-trin" viewBox="0 0 16 16">
+      <path d="M8 3.4L3.2 12.2h9.6z" fill="none" stroke="currentColor" stroke-width="1.1"/>
+      <circle cx="8" cy="3.4" r="1.1" fill="currentColor"/><circle cx="3.2" cy="12.2" r="1.1" fill="currentColor"/><circle cx="12.8" cy="12.2" r="1.1" fill="currentColor"/>
+    </symbol>
+    <symbol id="sg-phases" viewBox="0 0 110 16">
+      <g stroke="currentColor" stroke-width="1">
+        <circle cx="10" cy="8" r="5.5" fill="currentColor"/>
+        <circle cx="35" cy="8" r="5.5" fill="none"/>
+        <path d="M60 2.5a5.5 5.5 0 0 1 0 11z" fill="currentColor"/>
+        <circle cx="85" cy="8" r="5.5" fill="none"/>
+        <circle cx="100" cy="8" r="5.5" fill="currentColor" stroke="none"/>
+      </g>
+    </symbol>
+  </defs>
+</svg>
 
 <header class="hdr" id="top">
   <div class="wrap hdr-in">
@@ -30,6 +85,7 @@
 <section class="hero">
   <video class="hero-bg" autoplay muted loop playsinline poster="assets/img/hero-poster.jpg" src="assets/video/hero.mp4"></video>
   <div class="hero-shade"></div>
+  <svg class="mandala hero-mandala" aria-hidden="true"><use href="#mandala"/></svg>
   <div class="wrap hero-in">
     <p class="kick io">грибы и травы предгорий кавказа</p>
     <h1 class="io">Лес Кавказа<br>в граммах</h1>
@@ -55,7 +111,7 @@
 <section class="sec shop" id="shop">
   <div class="wrap">
     <div class="sec-head io">
-      <p class="kick">// лавка</p>
+      <p class="kick"><svg class="kicon"><use href="#sg-gill"/></svg>лавка</p>
       <h2>Собери свой состав</h2>
       <p class="sec-sub">Цены за грамм или за фасовку. Порошок, целые шляпки и капсулы делаем под запрос.</p>
     </div>
@@ -224,7 +280,10 @@
       </article>
 
       <article class="card io" data-cat="mix">
-        <div class="card-media card-np"><span class="lat">Ganoderma + Phallus</span></div>
+        <div class="card-media duo">
+          <img src="assets/img/reishi.webp" alt="Рейши" loading="lazy">
+          <img src="assets/img/veselka.webp" alt="Весёлка" loading="lazy">
+        </div>
         <div class="card-body">
           <p class="tag">миксы</p>
           <h3>Иммунный коктейль</h3>
@@ -237,7 +296,10 @@
       </article>
 
       <article class="card io" data-cat="mix">
-        <div class="card-media card-np"><span class="lat">Hericium + Cordyceps</span></div>
+        <div class="card-media duo">
+          <img src="assets/img/hericium-scale.webp" alt="Ежовик" loading="lazy">
+          <img src="assets/img/cordyceps.webp" alt="Кордицепс" loading="lazy">
+        </div>
         <div class="card-body">
           <p class="tag">миксы</p>
           <h3>Ноотропный микс</h3>
@@ -263,7 +325,10 @@
       </article>
 
       <article class="card io" data-cat="mix">
-        <div class="card-media card-np"><span class="lat">Cordycepin mix</span></div>
+        <div class="card-media duo">
+          <img src="assets/img/cordyceps.webp" alt="Кордицепс" loading="lazy">
+          <img src="assets/img/mycelium-02.webp" alt="Зерновой мицелий" loading="lazy">
+        </div>
         <div class="card-body">
           <p class="tag">миксы</p>
           <h3>Кордицепин Мицеликс</h3>
@@ -282,7 +347,7 @@
 <section class="sec path" id="path">
   <div class="wrap">
     <div class="sec-head io">
-      <p class="kick">// путь гриба</p>
+      <p class="kick"><svg class="kicon"><use href="#sg-path"/></svg>путь гриба</p>
       <h2>От мха до вашей банки</h2>
     </div>
     <div class="path-grid">
@@ -322,7 +387,7 @@
       <img class="m3" src="assets/img/hericium-macro.webp" alt="Плодовое тело ежовика крупным планом" loading="lazy">
     </div>
     <div class="mstr-text">
-      <p class="kick io">// кто сушит</p>
+      <p class="kick io"><svg class="kicon"><use href="#sg-eye"/></svg>кто сушит</p>
       <h2 class="io">Вячеслав</h2>
       <p class="io">Двадцать лет собираю дикоросы в предгорьях Кавказа, основной регион: Приэльбрусье. Освоил щадящую сушку, при которой в грибе остаётся максимум действующих веществ. Веду публичные лекции и семинары по фунготерапии, участвую в выставках и фестивалях.</p>
       <p class="io">К каждому заказу идёт информационная поддержка и сопровождение, пока вы не поймёте, как и зачем вам это работает.</p>
@@ -370,7 +435,7 @@
 <section class="sec revs" id="reviews">
   <div class="wrap">
     <div class="sec-head io">
-      <p class="kick">// галерея</p>
+      <p class="kick"><svg class="kicon"><use href="#sg-rhomb"/></svg>галерея</p>
       <h2>Отзывы</h2>
       <p class="sec-sub">Переписки с покупателями, кадры со сборов и фермы, крупные планы продукции. Клик по кадру откроет его целиком.</p>
     </div>
@@ -455,7 +520,7 @@
 <section class="sec faq" id="faq">
   <div class="wrap faq-grid">
     <div class="sec-head io">
-      <p class="kick">// вопросы</p>
+      <p class="kick"><svg class="kicon"><use href="#sg-moon"/></svg>вопросы</p>
       <h2>Спрашивают до заказа</h2>
     </div>
     <div class="faq-list">
@@ -486,8 +551,10 @@
     </div>
   </div>
   <div class="faq-cta io" id="order">
+    <svg class="mandala cta-mandala" aria-hidden="true"><use href="#mandala"/></svg>
+    <svg class="phases" aria-hidden="true"><use href="#sg-phases"/></svg>
     <div class="wrap cta-in">
-      <p class="kick">// заказ</p>
+      <p class="kick"><svg class="kicon"><use href="#sg-trin"/></svg>заказ</p>
       <h2>Забрать свой грамм</h2>
       <p class="cta-sub">Пишите в телеграм: подберём состав и дозу под задачу, ответим на вопросы и отправим в день заказа. Канал с анонсами сборов и лекциями: <b>t.me/amanita_kavkaza</b></p>
       <a class="btn btn-red btn-big" href="https://t.me/amanita_kavkaza" target="_blank" rel="noopener">открыть телеграм</a>
@@ -539,6 +606,6 @@
   <button class="lb-x" data-lb-close>×</button>
 </div>
 
-<script src="assets/js/app.js?v=2"></script>
+<script src="assets/js/app.js?v=4"></script>
 </body>
 </html>

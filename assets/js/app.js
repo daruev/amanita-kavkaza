@@ -10,7 +10,18 @@
   if ('IntersectionObserver' in window) {
     var obs = new IntersectionObserver(function (es) {
       es.forEach(function (e) {
-        if (e.isIntersecting) { e.target.classList.add('in'); obs.unobserve(e.target); }
+        if (e.isIntersecting) {
+          var el = e.target;
+          var p = el.parentElement;
+          if (p && /cards|path-grid|guide-grid/.test(p.className)) {
+            var sibs = Array.prototype.filter.call(p.children, function (c) {
+              return c.classList.contains('io');
+            });
+            el.style.animationDelay = (sibs.indexOf(el) % 4) * 90 + 'ms';
+          }
+          el.classList.add('in');
+          obs.unobserve(el);
+        }
       });
     }, { threshold: 0.12 });
     ios.forEach(function (el) { obs.observe(el); });
