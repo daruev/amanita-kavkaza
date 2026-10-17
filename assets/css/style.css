@@ -76,15 +76,18 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .hero h1 em{font-style:normal;color:var(--acc2)}
 .hero-sub{max-width:520px;color:var(--dim);font-size:17px;margin-bottom:36px}
 .hero-cta{display:flex;gap:14px;flex-wrap:wrap}
-.hero-strip{position:relative;border-top:1px solid var(--line);background:rgba(10,13,8,.6);backdrop-filter:blur(8px)}
-.hero-strip-in{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;padding:18px 24px}
-.hero-strip-in span{font:500 11px/1.5 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
-.hero-strip-in span:nth-child(odd){color:var(--ink)}
+.hero-strip{position:relative;max-width:1240px;margin:10px auto 10px;border:1px solid var(--line);background:rgba(10,13,8,.55);backdrop-filter:blur(10px);clip-path:polygon(14px 0,100% 0,100% calc(100% - 14px),calc(100% - 14px) 100%,0 100%,0 14px)}
+.hero-strip-in{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;padding:20px 28px}
+.hero-strip-in .ti{font:500 11px/1.5 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
+.hero-strip-in .ti:nth-of-type(odd){color:var(--ink)}
+.ti{display:inline-flex;align-items:center;gap:10px}
+.ti svg{width:15px;height:15px;color:var(--acc2);flex:none}
 
-.tape{border-bottom:1px solid var(--line);overflow:hidden;background:var(--bg2)}
-.tape-run{display:flex;white-space:nowrap;width:max-content;animation:tape 36s linear infinite}
-.tape-run span{font:500 12px/1 var(--mono);letter-spacing:.24em;text-transform:uppercase;color:var(--dim);padding:16px 0}
-.tape-run i{font-style:normal;color:var(--acc2);padding:0 18px}
+.tape{padding:0 24px 10px;overflow:hidden}
+.tape-in{max-width:1192px;margin:0 auto;border:1px solid var(--line);background:rgba(14,18,11,.55);backdrop-filter:blur(10px);overflow:hidden;clip-path:polygon(14px 0,100% 0,100% calc(100% - 14px),calc(100% - 14px) 100%,0 100%,0 14px)}
+.tape-run{display:flex;align-items:center;white-space:nowrap;width:max-content;animation:tape 36s linear infinite;padding:14px 0}
+.tape-run .ti{font:500 12px/1 var(--mono);letter-spacing:.2em;text-transform:uppercase;color:var(--dim);padding:0 26px}
+.tdot{width:5px;height:5px;flex:none;background:var(--gold);transform:rotate(45deg)}
 @keyframes tape{to{transform:translateX(-50%)}}
 
 .filters{display:flex;gap:10px;margin-bottom:36px;flex-wrap:wrap}
@@ -256,7 +259,10 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
   .lb-arrow{width:44px;height:44px}
   .lb-arrow.prev{left:10px}
   .lb-arrow.next{right:10px}
-  .hero-strip-in span{font-size:10px}
+  .hero-strip{margin-inline:12px}
+  .hero-strip-in{grid-template-columns:1fr 1fr;padding:16px 18px;gap:12px}
+  .hero-strip-in .ti{font-size:10px;align-items:flex-start}
+  .tape{padding:0 12px 10px}
   .cartbar{flex-direction:column;align-items:stretch;gap:10px;text-align:center}
   .cartbar>div{justify-content:center}
 }
