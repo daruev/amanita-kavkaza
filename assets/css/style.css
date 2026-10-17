@@ -82,8 +82,8 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .ti{display:inline-flex;align-items:center;gap:10px}
 .ti svg{width:15px;height:15px;color:var(--acc2);flex:none}
 
-.tape{padding:0 24px 10px;overflow:hidden}
-.tape-in{max-width:1192px;margin:0 auto;border:1px solid var(--line);background:rgba(14,18,11,.55);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);overflow:hidden;clip-path:polygon(14px 0,100% 0,100% calc(100% - 14px),calc(100% - 14px) 100%,0 100%,0 14px)}
+.tape{overflow:hidden}
+.tape-in{border-block:1px solid var(--line);background:rgba(14,18,11,.55);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);overflow:hidden}
 .tape-run{display:flex;align-items:center;white-space:nowrap;width:max-content;animation:tape 36s linear infinite;padding:14px 0}
 .tape-run .ti{font:500 12px/1 var(--mono);letter-spacing:.2em;text-transform:uppercase;color:var(--dim);padding:0 26px}
 .tdot{width:5px;height:5px;flex:none;background:var(--acc2);transform:rotate(45deg)}
@@ -262,7 +262,7 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
   .hero-strip{margin:0 0 36px}
   .hero-strip-in{grid-template-columns:1fr 1fr;padding:16px 18px;gap:12px}
   .hero-strip-in .ti{font-size:10px;align-items:flex-start}
-  .tape{padding:0 12px 10px}
+
   .cartbar{flex-direction:column;align-items:stretch;gap:10px;text-align:center}
   .cartbar>div{justify-content:center}
 }
