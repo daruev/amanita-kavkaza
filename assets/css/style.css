@@ -190,6 +190,9 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .ftr{border-top:1px solid var(--line);padding:56px 0 40px;background:var(--bg)}
 .ftr-in{display:grid;gap:14px;justify-items:center;text-align:center}
 .ftr-geo{font:500 12px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
+.ftr-links{display:flex;gap:10px 22px;flex-wrap:wrap;justify-content:center;margin-top:4px}
+.ftr-links a{font:500 12px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--dim);padding-bottom:3px;border-bottom:1px solid var(--line);transition:color .2s,border-color .2s}
+.ftr-links a:hover{color:var(--ink);border-color:var(--gold)}
 .ftr-note{font-size:12px;color:var(--dim);max-width:520px;opacity:.8}
 .ftr-copy{font:400 11px/1 var(--mono);color:var(--dim);opacity:.55;margin-top:10px}
 
