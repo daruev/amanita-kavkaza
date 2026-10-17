@@ -147,7 +147,9 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .gtabs{display:flex;gap:10px;margin-bottom:34px;flex-wrap:wrap}
 .gtabs .chip i{font-style:normal;color:var(--gold);margin-left:8px}
 .gtabs .chip.on i{color:var(--red2)}
-.gal-track{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px max(24px,calc((100% - 1192px)/2)) 16px;scroll-padding-inline:max(24px,calc((100% - 1192px)/2));scrollbar-width:none}
+.gal-track{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px max(24px,calc((100% - 1192px)/2)) 16px;scroll-padding-inline:max(24px,calc((100% - 1192px)/2));scrollbar-width:none;cursor:grab}
+.gal-track.dragging{cursor:grabbing;scroll-snap-type:none;user-select:none;-webkit-user-select:none}
+.gal-track.dragging img{pointer-events:none}
 .gal-track::-webkit-scrollbar{display:none}
 .gal-track figure{position:relative;flex:0 0 auto;scroll-snap-align:start;border:1px solid var(--line);overflow:hidden;cursor:zoom-in;background:var(--panel)}
 .gal-track img{width:100%;object-fit:cover;object-position:top;display:block;transition:transform .6s cubic-bezier(.2,.6,.2,1)}

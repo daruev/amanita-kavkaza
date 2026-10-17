@@ -243,6 +243,40 @@
     lbShow();
   }
 
+  var gDragged = false;
+  var gDown = false;
+  var gStartX = 0;
+  var gStartScroll = 0;
+
+  gtrack.addEventListener('dragstart', function (e) { e.preventDefault(); });
+  gtrack.addEventListener('pointerdown', function (e) {
+    if (e.pointerType !== 'mouse' || e.button !== 0) return;
+    gDown = true;
+    gDragged = false;
+    gStartX = e.pageX;
+    gStartScroll = gtrack.scrollLeft;
+    gtrack.classList.add('dragging');
+  });
+  window.addEventListener('pointermove', function (e) {
+    if (!gDown) return;
+    var dx = e.pageX - gStartX;
+    if (Math.abs(dx) > 5) gDragged = true;
+    if (gDragged) gtrack.scrollLeft = gStartScroll - dx;
+  });
+  window.addEventListener('pointerup', function () {
+    if (!gDown) return;
+    gDown = false;
+    gtrack.classList.remove('dragging');
+    setTimeout(function () { gDragged = false; }, 50);
+  });
+
+  gtrack.addEventListener('click', function (e) {
+    if (gDragged) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+  }, true);
+
   gtrack.addEventListener('click', function (e) {
     var f = e.target.closest('figure');
     if (f) lbOpen(f);
