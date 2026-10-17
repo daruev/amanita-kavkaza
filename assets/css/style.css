@@ -183,7 +183,7 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .cta-in h2{font:400 clamp(34px,5vw,58px)/1.05 var(--serif);margin:18px 0 14px}
 .cta-sub{color:var(--dim);margin:8px auto 36px;max-width:560px}
 .cta-sub b{color:var(--ink);font-weight:600}
-.faq-cta{margin-top:90px;padding-top:90px;border-top:1px solid var(--line);background:radial-gradient(70% 90% at 50% 115%,rgba(200,64,46,.16) 0%,transparent 60%);position:relative;overflow:hidden}
+.faq-cta{margin-top:90px;padding:90px 0 110px;border-top:1px solid var(--line);background:radial-gradient(70% 90% at 50% 115%,rgba(200,64,46,.16) 0%,transparent 60%);position:relative;overflow:hidden}
 .faq-cta .kick{justify-content:center}
 .faq-cta .wrap{position:relative}
 
