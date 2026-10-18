@@ -1,2 +1,13 @@
 .playwright-mcp/
 _vfr/
+front*.html
+wp-front*.html
+page_id.txt
+auth_tmp.txt
+man_tmp.css
+oran_tmp.css
+schema.json
+page_manifest.json
+tokens.json
+layout.json
+build_wp.py
