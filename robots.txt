@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://daruev.github.io/amanita-kavkaza/sitemap.xml
