@@ -1,3 +1,12 @@
+@import url("http://amanslav.test/wp-content/plugins/darcommerce/assets/css/catalog.css");
+@import url("http://amanslav.test/wp-content/plugins/darcommerce/assets/css/grid.css");
+@import url("http://amanslav.test/wp-content/plugins/darcommerce/assets/css/listing.css");
+@import url("http://amanslav.test/wp-content/plugins/darcommerce/assets/css/store.css");
+@import url("http://amanslav.test/wp-content/plugins/darcommerce/assets/css/product.css");
+@import url("http://amanslav.test/wp-content/plugins/darcommerce/assets/css/motion.css");
+@import url("http://amanslav.test/wp-content/plugins/darcommerce/assets/css/facets.css");
+@import url("http://amanslav.test/wp-content/plugins/darcommerce/assets/css/swatches.css");
+@import url("http://amanslav.test/wp-content/plugins/darcommerce/assets/css/table.css");
 /* AMANITA KAVKAZA kit — dark forest / teal / beveled */
 
 :root{
